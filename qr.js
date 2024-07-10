@@ -59,31 +59,31 @@ router.get('/', async (req, res) => {
 				   let session = await Qr_Code_By_Maher_Zubair.sendMessage(Qr_Code_By_Maher_Zubair.user.id, { text: '' + b64data });
 	
 				   let SIGMA_MD_TEXT = `
-*𝐁𝐄𝐋𝐓𝐀𝐇-𝐌𝐃 𝐕𝟒.𝟎.𝟎 𝐋𝐀𝐓𝐄𝐒𝐓 QR CODE CONNECTED*
+*NARUTO  QR CODE CONNECTED*
 
-> You have completed the first step of Deploying *BELTAH-MD*, Copy the above message and deploy your bot.Meanwhile you must follow the 4 steps. 
+> You have completed the first step of Deploying *NARUTO MD*, Copy the above message and deploy your bot.Meanwhile you must follow the 4 steps. 
 
 > 1st STEP
 *TAP THE LINK BELOW AND FOLLOW THE CHANNEL* 
-𓄂 *_https://whatsapp.com/channel/0029VaRHDBKKmCPKp9B2uH2F_*
+𓄂 *_https://whatsapp.com/channel/0029Vade9VgD38CPEnxfYF0M_*
 
 > 2nd STEP
 *YOU MUST JOIN OUR GROUP FOR UPDATES ON THIS BOT*
-𓄂 *_https://chat.whatsapp.com/CQvUnqaDK4fBjgMXvFEAsI_*
+𓄂 *_https://whatsapp.com/channel/0029Vade9VgD38CPEnxfYF0M_*
 
 > 3rd STEP
 *FORK AND STAR 🌟 THE REPO FOR COURAGE*
-𓄂 *_https://github.com/Beltahmd/beltah-md_*
+𓄂 *_https://github.com/Mpeneti/NARUTO-MD/tree/main_*
 
 > 4th STEP 
 *VISIT FOR TUTORIALS IF YOU DON'T KNOW HOW TO DEPLOY*
 𓄂 *_https://www.youtube.com/@Beltahtech2024_*
 
-*DEVELOPER: BELTAH TECH*
-𓄂 *_https://wa.me/254114141192_*
+*DEVELOPER: JOEL TECH*
+𓄂 *_https://wa.me/255714595078_*
 
-> MADE ON EARTH BY BELTAH🇰🇪
-> 𝐏𝐎𝐖𝐄𝐑𝐄𝐃 𝐁𝐘 𝐁𝐄𝐋𝐓𝐀𝐇 𝐓𝐄𝐂𝐇 `
+> MADE ON EARTH BY NARUTO MD 
+> 𝐏𝐎𝐖𝐄𝐑𝐄𝐃 𝐁𝐘 JOEL TECH `
 					
 	 await Qr_Code_By_Maher_Zubair.sendMessage(Qr_Code_By_Maher_Zubair.user.id,{text:SIGMA_MD_TEXT},{quoted:session})
 
